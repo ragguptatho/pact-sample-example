@@ -1,0 +1,51 @@
+# Logfile created on 2023-03-15 11:32:18 +0530 by logger.rb/56815
+I, [2023-03-15T11:32:18.475036 #5045]  INFO -- : Running example 'Verifying a pact between consumer and provider Given say hello world produce hello world has matching content'
+I, [2023-03-15T11:32:18.475264 #5045]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"say hello world"}]}, see debug logs for body
+D, [2023-03-15T11:32:18.475318 #5045] DEBUG -- : body :{"description":"produce hello world","providerStates":[{"name":"say hello world","params":{}}],"metadata":null}
+I, [2023-03-15T11:32:18.490216 #5045]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 06:02:18 GMT", "Content-Length"=>"26"}, see debug logs for body
+D, [2023-03-15T11:32:18.490284 #5045] DEBUG -- : body: {"contents":"Hello World"}
+I, [2023-03-15T11:32:55.816791 #5202]  INFO -- : Running example 'Verifying a pact between consumer and provider Given say hello world produce hello world has matching content'
+I, [2023-03-15T11:32:55.817734 #5202]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"say hello world"}]}, see debug logs for body
+D, [2023-03-15T11:32:55.817827 #5202] DEBUG -- : body :{"description":"produce hello world","providerStates":[{"name":"say hello world","params":{}}],"metadata":null}
+I, [2023-03-15T11:32:55.832723 #5202]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 06:02:55 GMT", "Content-Length"=>"28"}, see debug logs for body
+D, [2023-03-15T11:32:55.832814 #5202] DEBUG -- : body: {"contents":"Hello World!!"}
+I, [2023-03-15T11:35:56.746028 #5681]  INFO -- : Running example 'Verifying a pact between consumer and provider Given say hello world produce hello world has matching content'
+I, [2023-03-15T11:35:56.746320 #5681]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"say hello world"}]}, see debug logs for body
+D, [2023-03-15T11:35:56.746380 #5681] DEBUG -- : body :{"description":"produce hello world","providerStates":[{"name":"say hello world","params":{}}],"metadata":null}
+I, [2023-03-15T11:35:56.760686 #5681]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 06:05:56 GMT", "Content-Length"=>"28"}, see debug logs for body
+D, [2023-03-15T11:35:56.760772 #5681] DEBUG -- : body: {"contents":"Hello World!!"}
+I, [2023-03-15T12:32:06.475601 #8788]  INFO -- : Running example 'Verifying a pact between consumer and provider Given say hello world produce hello world has matching content'
+I, [2023-03-15T12:32:06.476168 #8788]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"say hello world"}]}, see debug logs for body
+D, [2023-03-15T12:32:06.476235 #8788] DEBUG -- : body :{"description":"produce hello world","providerStates":[{"name":"say hello world","params":{}}],"metadata":null}
+I, [2023-03-15T12:32:06.492594 #8788]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 07:02:06 GMT", "Content-Length"=>"26"}, see debug logs for body
+D, [2023-03-15T12:32:06.492681 #8788] DEBUG -- : body: {"contents":"Hello World"}
+I, [2023-03-15T12:32:06.609440 #8788]  INFO -- : Running example 'Verifying a pact between grafana and prometheus Given analyse metrics analyse metrics has matching content'
+I, [2023-03-15T12:32:06.609734 #8788]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"analyse metrics"}]}, see debug logs for body
+D, [2023-03-15T12:32:06.609818 #8788] DEBUG -- : body :{"description":"analyse metrics","providerStates":[{"name":"analyse metrics","params":{}}],"metadata":null}
+I, [2023-03-15T12:32:06.611500 #8788]  INFO -- : Received response with status: 404, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 07:02:06 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2023-03-15T12:32:06.611560 #8788] DEBUG -- : body: 
+I, [2023-03-15T12:32:40.588225 #8909]  INFO -- : Running example 'Verifying a pact between consumer and provider Given say hello world produce hello world has matching content'
+I, [2023-03-15T12:32:40.588928 #8909]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"say hello world"}]}, see debug logs for body
+D, [2023-03-15T12:32:40.589052 #8909] DEBUG -- : body :{"description":"produce hello world","providerStates":[{"name":"say hello world","params":{}}],"metadata":null}
+I, [2023-03-15T12:32:40.606186 #8909]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 07:02:40 GMT", "Content-Length"=>"26"}, see debug logs for body
+D, [2023-03-15T12:32:40.606276 #8909] DEBUG -- : body: {"contents":"Hello World"}
+I, [2023-03-15T12:32:40.714799 #8909]  INFO -- : Running example 'Verifying a pact between consumer and provider Given say hello world produce hello world has matching content'
+I, [2023-03-15T12:32:40.715107 #8909]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"say hello world"}]}, see debug logs for body
+D, [2023-03-15T12:32:40.715175 #8909] DEBUG -- : body :{"description":"produce hello world","providerStates":[{"name":"say hello world","params":{}}],"metadata":null}
+I, [2023-03-15T12:32:40.716978 #8909]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 07:02:40 GMT", "Content-Length"=>"26"}, see debug logs for body
+D, [2023-03-15T12:32:40.717068 #8909] DEBUG -- : body: {"contents":"Hello World"}
+I, [2023-03-15T12:37:33.353949 #9359]  INFO -- : Running example 'Verifying a pact between consumer and provider Given say hello world produce hello world has matching content'
+I, [2023-03-15T12:37:33.354454 #9359]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"say hello world"}]}, see debug logs for body
+D, [2023-03-15T12:37:33.354520 #9359] DEBUG -- : body :{"description":"produce hello world","providerStates":[{"name":"say hello world","params":{}}],"metadata":null}
+I, [2023-03-15T12:37:33.367459 #9359]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 07:07:33 GMT", "Content-Length"=>"26"}, see debug logs for body
+D, [2023-03-15T12:37:33.367527 #9359] DEBUG -- : body: {"contents":"Hello World"}
+I, [2023-03-15T12:37:33.488666 #9359]  INFO -- : Running example 'Verifying a pact between consumer and provider Given say hello world produce hello world has matching content'
+I, [2023-03-15T12:37:33.490700 #9359]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"say hello world"}]}, see debug logs for body
+D, [2023-03-15T12:37:33.490800 #9359] DEBUG -- : body :{"description":"produce hello world","providerStates":[{"name":"say hello world","params":{}}],"metadata":null}
+I, [2023-03-15T12:37:33.492295 #9359]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 07:07:33 GMT", "Content-Length"=>"26"}, see debug logs for body
+D, [2023-03-15T12:37:33.492363 #9359] DEBUG -- : body: {"contents":"Hello World"}
+I, [2023-03-15T12:37:33.572383 #9359]  INFO -- : Running example 'Verifying a pact between consumer and provider Given say hello world produce hello world has matching content'
+I, [2023-03-15T12:37:33.572550 #9359]  INFO -- : Sending POST request to path: "/" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"say hello world"}]}, see debug logs for body
+D, [2023-03-15T12:37:33.572594 #9359] DEBUG -- : body :{"description":"produce hello world","providerStates":[{"name":"say hello world","params":{}}],"metadata":null}
+I, [2023-03-15T12:37:33.574135 #9359]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Wed, 15 Mar 2023 07:07:33 GMT", "Content-Length"=>"26"}, see debug logs for body
+D, [2023-03-15T12:37:33.574180 #9359] DEBUG -- : body: {"contents":"Hello World"}

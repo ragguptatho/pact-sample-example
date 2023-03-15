@@ -1,0 +1,5 @@
+reading/
+scripts/
+sample/
+gocd.sh
+**/pacts
